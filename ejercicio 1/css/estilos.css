@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+.titulo-equipo {
+    font-family: 'Mulish', sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-align: center;
+    color: #04146c;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card.team-card {
+    margin-bottom: 30px;
+    text-align: center;
+    border: 2px solid transparent; 
+    border-radius: 5px;
+    align-items: center;
+}
+
+.card-title {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: #0a2ff1;
+}
+
+.card-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    color: #04146c;
+}
+
+.card-description {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #04146c;
+}
+
+.btn.perfil-btn {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #04146c;
+    border: 2px solid #0a2ff1; 
+    padding: 10px 20px;
+    border-radius: 0;
+}
+
+
+.card-img-top {
+    border-radius: 50%;
+}
+
+.card.team-card .card-img-top {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+@media (max-width: 767px) {
+    h1 {
+        font-size: 36pt;
+    }
+
+    .card-img-top {
+        width: 150px;
+        height: 150px;
+    }
+
+    .card-title {
+        font-size: 24pt;
+    }
+
+    .card-text,
+    .btn {
+        font-size: 16pt;
+    }
+}
+

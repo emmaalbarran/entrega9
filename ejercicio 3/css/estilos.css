@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+label[for="correo"], label[for="contraseña"] {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 600; 
+    color: #04146c;
+}
+
+#correo {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-text {
+    font-family: 'Mulish', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    color: #04146c;
+}
+
+#contraseña {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.form-check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.form-check-input {
+    width: 20px; 
+    height: 20px;
+    border-radius: 5px;
+}
+
+.form-check-label[for="recordar"] {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 400; 
+    color: #04146c;
+    margin-left: 10px;
+}
+
+
+.btn-primary {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #5974ff;
+    margin-top: 15px;
+    width: 150px;
+    height: 50px;
+}
+
+.form-control {
+    border-color: #8a9af1;
+}
